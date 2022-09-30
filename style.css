@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #F2F2F2;
+}
+
+.container {
+    margin: 102px auto;
+    width: 450px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main-img {
+    display: block;
+}
+
+.inner-container {
+    margin: 0 auto;
+    width: 354px;
+}
+
+h1 {
+    margin: 45px auto 17px;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
+}
+
+p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+}
+
+.plan {
+    margin: 20px auto 32px;
+    padding: 25px 24px;
+    background: #F7F9FF;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+
+.plan-inner {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+}
+
+.plan-inner p {
+    line-height: 21px;
+}
+
+a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #766CF1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pay-btn {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    border: none;
+    transition: 0.3s;
+}
+
+.pay-btn:hover {
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
+.cancel {
+    width: fit-content;
+    margin: 32px auto 48px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+    transition: 0.3s;
+}
+
+.cancel:hover {
+    color: #1F2E55;
+    cursor: pointer;
+}
