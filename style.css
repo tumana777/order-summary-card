@@ -4,7 +4,8 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     background-image: url(img/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-color: #F2F2F2;
+    background-color: #E0E8FF;
+    background-size: contain;
 }
 
 .container {
@@ -122,4 +123,14 @@ a:hover {
 .cancel:hover {
     color: #1F2E55;
     cursor: pointer;
+}
+
+@media (max-width: 475px){
+    .container {
+        width: 90%;
+    }
+
+    .inner-container {
+        width: 80%;
+    }
 }
